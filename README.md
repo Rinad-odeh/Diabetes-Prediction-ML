@@ -1,2 +1,12 @@
 # Diabetes-Prediction-ML
-This project uses machine learning to predict diabetes based on medical data, including data preparation, model training, and saving the trained model for future predictions without retraining.
+Project Structure:
+
+main.py: The core script for data analysis, cleaning, and model training.
+
+diabetes.csv: Dataset containing medical records (Glucose, BMI, Age, etc.).
+
+best_model.pkl: Trained model.
+
+scaler.pkl: Saved StandardScaler for data normalization.
+
+medians.pkl: Saved median values for handling missing data
